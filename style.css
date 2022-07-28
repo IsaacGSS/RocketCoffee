@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+:root {
+  --backgrond: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+}
+
+body{
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+
+  padding-top: 2rem;
+
+  align-items: center;
+  flex-direction: column;
+
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--backgrond);
+
+}
+
+header{
+  display: flex;
+
+  width: 918px;
+  height: 50px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+ul li{
+  margin: .5rem;
+  
+}
+
+nav a{
+  padding: .5rem;
+  text-transform: capitalize;
+}
+
+button{
+  width: 172px;
+  height: 37px;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+  border: solid 2px var(--button);
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+main{
+  display: flex;
+
+  height: 100%;
+
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+
+main > h1{
+  text-align: center;
+  font-size: 80px;
+}
+
+div.espera{  
+  position: fixed;
+
+  width: 321px;
+  height: 321px;
+
+  border-radius: 100%;
+  
+  background-color: #996DFF;
+}
